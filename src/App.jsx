@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <button onClick={this.handleClick}>I handle your clicks, so click me!</button>
+        <button className="myButton" onClick={this.handleClick}>I handle your clicks, so click me!</button>
         {this.state.active && 
         <div className="myCard">
         <h1>{this.state.user.login}</h1>
